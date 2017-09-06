@@ -1,5 +1,5 @@
 #!/bin/bash
-$helloworldstr = "Hello World!"
+helloworldstr = "Hello World!"
 echo $helloworldstr
 exit 0
 
