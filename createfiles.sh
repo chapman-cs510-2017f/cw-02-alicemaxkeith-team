@@ -2,7 +2,7 @@
  
 mkdir tmpfiles
  
-cd creatfiles
+cd creatfiles                  ### It is polite to return to the original directory at the end
  
 for file in {001..100}
    do
@@ -10,3 +10,5 @@ for file in {001..100}
    echo "temporary $file" > tmpfiles/file$file.tmp
  
 done
+
+### cd - ### This will return to the last directory
